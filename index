@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合香原料溯源目录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #eef2ea;
+            font-family: system-ui, 'Segoe UI', 'PingFang SC', Roboto, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+        }
+        .catalog {
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+            border-radius: 48px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: #2c5e2e;
+            color: white;
+            padding: 40px 24px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+        }
+        .header p {
+            margin-top: 12px;
+            opacity: 0.9;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 28px;
+            padding: 48px 32px;
+            justify-content: center;
+        }
+        .herb-card {
+            flex: 1;
+            min-width: 240px;
+            background: #fefaf5;
+            border-radius: 32px;
+            padding: 32px 24px;
+            text-decoration: none;
+            color: #2c3e2f;
+            transition: all 0.25s;
+            border: 1px solid #e2d8cc;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+            text-align: center;
+        }
+        .herb-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 28px rgba(0,0,0,0.08);
+            border-color: #c9a87b;
+        }
+        .herb-icon {
+            font-size: 4rem;
+            margin-bottom: 16px;
+        }
+        .herb-card h2 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #2c5e2e;
+        }
+        .herb-card p {
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: #6b5a42;
+        }
+        .footer {
+            background: #f7f4ef;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #8f7a5c;
+            border-top: 1px solid #e2d8cc;
+        }
+        @media (max-width: 700px) {
+            .header h1 { font-size: 1.6rem; }
+            .cards { padding: 32px 20px; }
+        }
+    </style>
+</head>
+<body>
+<div class="catalog">
+    <div class="header">
+        <h1>🌾 道地药材溯源目录</h1>
+        <p>点击药材，查看完整原料档案（产地、炮制、功效）</p >
+    </div>
+    <div class="cards">
+        <a href=" " class="herb-card">
+            <div class="herb-icon">🌿</div>
+            <h2>霍山石斛</h2>
+            <p>安徽霍山 · 益胃生津<br>清润合香君药</p >
+        </a >
+        <a href="fuling.html" class="herb-card">
+            <div class="herb-icon">🍄</div>
+            <h2>云茯苓</h2>
+            <p>云南楚雄 · 健脾渗湿<br>宁心安神辅料</p >
+        </a >
+        <a href="chenxiang.html" class="herb-card">
+            <div class="herb-icon">🪵</div>
+            <h2>海南沉香</h2>
+            <p>海南屯昌 · 行气止痛<br>纳气归元佐使</p >
+        </a >
+    </div>
+    <div class="footer">
+        🔍 每份档案均包含：原料信息、道地产区、采收时间、炮制流程、康养功效
+    </div>
+</div>
+</body>
+</html>
