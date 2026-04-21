@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云茯苓 · 原料溯源档案</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #f5f3ef;
+            font-family: system-ui, 'Segoe UI', 'PingFang SC', sans-serif;
+            padding: 24px;
+            color: #2c3e2f;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 36px;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .back-bar {
+            padding: 18px 28px;
+            background: #fefaf5;
+            border-bottom: 1px solid #e2d8cc;
+        }
+        .back-link {
+            text-decoration: none;
+            color: #2c5e2e;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .header {
+            background: #2c5e2e;
+            color: white;
+            padding: 32px 32px;
+        }
+        .header h1 { font-size: 2rem; font-weight: 500; }
+        .header p { opacity: 0.85; margin-top: 8px; }
+        .content {
+            padding: 32px 32px 40px;
+        }
+        .section {
+            margin-bottom: 36px;
+            border-bottom: 1px solid #ece3d8;
+            padding-bottom: 28px;
+        }
+        .section:last-child { border-bottom: none; }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #2c5e2e;
+            border-left: 5px solid #c9a87b;
+            padding-left: 16px;
+            margin-bottom: 20px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+        .info-card {
+            background: #fefcf8;
+            border-radius: 24px;
+            padding: 18px 20px;
+            border: 1px solid #e6dfd3;
+        }
+        .info-card h3 {
+            font-size: 1.1rem;
+            color: #a97142;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .info-card p, .info-card li {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #3b4c3b;
+        }
+        .info-card ul {
+            padding-left: 20px;
+            margin-top: 6px;
+        }
+        .badge {
+            background: #e9e0d4;
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.75rem;
+            display: inline-block;
+            margin-top: 8px;
+        }
+        .image-placeholder {
+            background: #e9e4db;
+            border-radius: 24px;
+            padding: 32px;
+            text-align: center;
+            color: #8f7a5c;
+            font-size: 0.9rem;
+            border: 1px dashed #c9b696;
+            margin-top: 16px;
+        }
+        .footer-note {
+            font-size: 0.7rem;
+            text-align: center;
+            padding: 20px;
+            background: #f7f4ef;
+            color: #7f6b4a;
+            border-top: 1px solid #e2d8cc;
+        }
+        @media (max-width: 700px) {
+            .header h1 { font-size: 1.5rem; }
+            .section-title { font-size: 1.3rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="back-bar">
+        <a href="index.html" class="back-link">← 返回目录</a>
+    </div>
+    <div class="header">
+        <h1>🍄 云茯苓 · 原料溯源档案</h1>
+        <p>道地药材 · 全程透明可追溯</p>
+    </div>
+    <div class="content">
+        <div class="section">
+            <div class="section-title">📦 原料基础信息</div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>📛 品名</h3>
+                    <p>云茯苓（白苓丁）</p>
+                    <span class="badge">药典正品</span>
+                </div>
+                <div class="info-card">
+                    <h3>🏷️ 拉丁名</h3>
+                    <p>Poria cocos (Schw.) Wolf</p>
+                </div>
+                <div class="info-card">
+                    <h3>📅 生产批次</h3>
+                    <p>YL2025-0820</p>
+                    <span class="badge">2025年秋采</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">📍 道地产区</div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>🗺️ 地理位置</h3>
+                    <p>云南省楚雄彝族自治州哀牢山高海拔松林区（海拔2000-2500米）</p>
+                </div>
+                <div class="info-card">
+                    <h3>🤝 合作药农</h3>
+                    <p>楚雄哀牢山野生茯苓合作社（林地面积300亩）</p>
+                </div>
+                <div class="info-card">
+                    <h3>🌲 生态环境</h3>
+                    <p>松林下腐殖土层深厚，年均温15℃，年降雨量1000mm</p>
+                </div>
+            </div>
+            <div class="image-placeholder">
+               <img src="fuling.jpg" style="width: 600px;height:auto;"> 
+               [ 产地实拍示意图：哀牢山松林茯苓采挖现场 ]<br>
+               
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">⚙️ 采收与炮制流程</div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>⏱️ 采收时间</h3>
+                    <p>2025年8月20日 – 9月10日<br>（立秋后，菌核成熟，淀粉含量高）</p>
+                </div>
+                <div class="info-card">
+                    <h3>🔧 炮制步骤</h3>
+                    <ul>
+                        <li>去皮：鲜茯苓削去外皮（茯苓皮另作药用）</li>
+                        <li>切丁：切成0.8-1cm立方块</li>
+                        <li>蒸制：隔水蒸20分钟，去除草腥气</li>
+                        <li>晾晒：自然日光晒3天至干脆</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>📆 炮制总天数</h3>
+                    <p><strong>4天</strong>（不含鲜苓采后存放）</p>
+                    <span class="badge">传统蒸晒 · 无硫</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">🌿 康养功效 & 合香应用</div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>💊 功效主治</h3>
+                    <p>利水渗湿，健脾，宁心安神。用于水肿尿少、痰饮眩悸、脾虚食少、便溏泄泻、心神不安、惊悸失眠。</p>
+                </div>
+                <div class="info-card">
+                    <h3>🌸 合香配伍作用</h3>
+                    <p>作为臣药，平和湿气，增强运化，防止君药石斛滋腻碍胃。</p>
+                </div>
+                <div class="info-card">
+                    <h3>📖 适用合香类型</h3>
+                    <p>祛湿安神香 · 健脾温香 · 安眠香囊</p>
+                    <span class="badge">推荐用量：20-30%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-note">
+        🔍 本批次茯苓检测报告：水分≤14%，总灰分≤2.0% | 报告编号：YL-2025-047
+    </div>
+</div>
+</body>
+</html>
